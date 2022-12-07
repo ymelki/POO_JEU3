@@ -8,6 +8,7 @@ abstract class Hero3 extends Personnage3 {
      private $intelligence; 
 
      public function __construct(){
+        parent::__construct();
         $this->setEpee(10);
         $this->setInteligence(10); 
     }
