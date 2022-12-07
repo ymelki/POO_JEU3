@@ -1,0 +1,15 @@
+<?php
+require_once("Personnage3.php");
+require_once("Monstres3.php");
+require_once("Hero3.php");
+class Chevalier extends Hero3 {
+      
+      public function gifle(Monstres3 $m){
+        $m->setSante($m->getSante()-15);
+     } 
+      public function coupspecial(Monstres3 $m){
+        $m->setSante($m->getSante()-8);
+     }
+ 
+}
+?>
