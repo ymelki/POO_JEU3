@@ -1,0 +1,23 @@
+POO
+
+
+Pourquoi on a créé des classes ?
+Toutes les classes doivent être instanciés (lutin ogre chevalier et princesse)
+
+Pourquoi on a créé des interfaces ?
+On a bien des méthodes abstraites qui doivent être implémenté 
+par exemple 
+pour les héros comme par exemple
+ -  public function gifle(Monstres3 $m); 
+mais le problème c'est que on a des propriétés suplémentaire 
+commune aux heros qui peuvent être aussi herité.
+
+Classe abstraite : Personne implements Hero
+
+Pourquoi on a créé des classes abstraites ?
+Des classes non instanciables comme Hero ou personnage
+mais aussi
+des classes abstraites qui auront  comme par exemple
+ -  public function gifle(Monstres3 $m); 
+ + l'avantage de l'héritage des propriété commune comme "epee".
+
